@@ -23,7 +23,7 @@ This is a Python-based mini algorithmic trading system that:
 | 📢 Telegram alerts for signals/errors  | ✅      |
 | Modular Python code                    | ✅      |
 
-
+---
 ## ⚙️ Setup Instructions
 
 1. **Clone repo / unzip**

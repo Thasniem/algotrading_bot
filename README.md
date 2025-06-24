@@ -40,10 +40,15 @@ This is a Python-based mini algorithmic trading system that:
      
 5. **Telegram Setup**
    - Talk to @BotFather to create a bot → get token
-   - Message your bot → run:
-     https://api.telegram.org/bot<your-bot-token>/getUpdates
+     
+   - Message your bot →
+     run:
+     https://api.telegram.org/your-bot-token/getUpdates
+     
    - Copy "chat": { "id": 123456789 } as your TELEGRAM_CHAT_ID
+     
    - Update config.py:
+     
      TELEGRAM_BOT_TOKEN = "your-bot-token"
      TELEGRAM_CHAT_ID = "your-chat-id"
      

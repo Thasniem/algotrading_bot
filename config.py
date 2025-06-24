@@ -1,0 +1,4 @@
+USE_API = True  # Set False to use local CSVs for offline mode
+SYMBOLS = ["RELIANCE.NS", "TCS.NS", "INFY.NS"]
+TELEGRAM_BOT_TOKEN = "8177460817:AAE1o1mHI22n7_OOlb_x_yOl_70V2YWOrXw"
+TELEGRAM_CHAT_ID = "5436158331"

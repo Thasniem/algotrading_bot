@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+ENV/
+
+# Google credentials
+creds.json
+
+# Environment variables
+.env
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and system files
+*.log
+*.swp

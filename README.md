@@ -28,16 +28,17 @@ This is a Python-based mini algorithmic trading system that:
 
 1. **Clone repo / unzip**
    
-2. Install dependencies:
+2. **Install dependencies:**
+
    pip install -r requirements.txt
 
-3. **Google Sheets Setup**
+4. **Google Sheets Setup**
 
    - Create Google Sheet: Algo_Trade_Log
    - Add worksheet: Trade_Log
    - Share it with your service account email (from creds.json)
      
-4. **Telegram Setup**
+5. **Telegram Setup**
    - Talk to @BotFather to create a bot → get token
    - Message your bot → run:
      https://api.telegram.org/bot<your-bot-token>/getUpdates
@@ -46,7 +47,8 @@ This is a Python-based mini algorithmic trading system that:
      TELEGRAM_BOT_TOKEN = "your-bot-token"
      TELEGRAM_CHAT_ID = "your-chat-id"
      
-5. Run the bot:
+6. **Run the bot**
+
    python main.py
 
 ---
@@ -54,10 +56,12 @@ This is a Python-based mini algorithmic trading system that:
 ## 📬 Output Samples
 
 Google Sheet gets:
+
 ['Buy', '2025-06-24', 2600.15]
 ['Sell', '2025-06-27', 2705.20]
 
 Telegram gets:
+
 Signal: Buy | RELIANCE.NS | Date: 2025-06-24 | Price: 2600.15  
 RELIANCE.NS Model Accuracy: 0.45
 

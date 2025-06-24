@@ -30,15 +30,17 @@ This is a Python-based mini algorithmic trading system that:
    
 2. **Install dependencies:**
 
+   ```bash
    pip install -r requirements.txt
+   ```
 
-4. **Google Sheets Setup**
+3. **Google Sheets Setup**
 
    - Create Google Sheet: Algo_Trade_Log
    - Add worksheet: Trade_Log
    - Share it with your service account email (from creds.json)
      
-5. **Telegram Setup**
+4. **Telegram Setup**
    - Talk to @BotFather to create a bot → get token
      
    - Message your bot →
@@ -52,9 +54,10 @@ This is a Python-based mini algorithmic trading system that:
      TELEGRAM_BOT_TOKEN = "your-bot-token"
      TELEGRAM_CHAT_ID = "your-chat-id"
      
-6. **Run the bot**
-
+5. **Run the bot**
+   ```bash
    python main.py
+   ```
 
 ---
 
